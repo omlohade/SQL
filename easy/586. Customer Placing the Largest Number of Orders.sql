@@ -59,3 +59,6 @@ ORDER BY a.count_costomer DESC
 
 -- Limiting the result to only the top customer (the one with the most orders)
 LIMIT 1;
+
+
+-- cannot use max hence use order desc and limit to find max 
